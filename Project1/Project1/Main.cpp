@@ -1,3 +1,1 @@
-//untiBURIBURIkuyafgv
-
-片山確認。
+ゲーム入れたお
