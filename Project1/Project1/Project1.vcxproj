@@ -137,6 +137,9 @@
     <ClCompile Include="GameL\UserData.cpp" />
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Noah.cpp" />
+    <ClCompile Include="ObjStage.cpp" />
+    <ClCompile Include="SceneMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameHead.h" />
@@ -152,6 +155,9 @@
     <ClInclude Include="GameL\UserData.h" />
     <ClInclude Include="GameL\WinInputs.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="Noah.h" />
+    <ClInclude Include="ObjStage.h" />
+    <ClInclude Include="SceneMain.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
