@@ -30,12 +30,12 @@ void CObjStage::Action()
 	//後方スクロールライン
 	if (hx < 80)
 	{
-		noah->SetX(80);				//主人公はラインを超えないようにする
+		noah->SetX(50);				//主人公はラインを超えないようにする
 		m_scroll -= noah->GetVX();		//主人公が本来動くべき値をm_scrollに加える
 	}
 
 	//前方スクロールライン
-	if (hx > 600)
+	if (hx > 750)
 	{
 		noah->SetX(300);				//主人公はラインを超えないようにする
 		m_scroll -= noah->GetVX();		//主人公が本来動くべき値をm_scrollに加える
@@ -73,9 +73,9 @@ void CObjStage::Draw()
 	RECT_F dst;	//描画先表示位置
 
 	//背景表示
-	src.m_top = 256.0f;
+	src.m_top = 0.0f;
 	src.m_left = 0.0f;
-	src.m_right = 512.0f;
+	src.m_right = 1024.0f;
 	src.m_bottom = 512.0f;
 
 	dst.m_top = 0.0f;

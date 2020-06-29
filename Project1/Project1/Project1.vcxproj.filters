@@ -13,11 +13,17 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\ゲームメイン">
+      <UniqueIdentifier>{c6dbbb98-cf5e-4524-a753-c0db5a04dd01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲームオーバー画面">
+      <UniqueIdentifier>{fb795513-ad26-43b5-be27-8f134a7da323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲームタイトル画面">
+      <UniqueIdentifier>{7081a0f4-1e60-40ba-8a58-dff392430bb3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="GameL\Audio.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
@@ -57,14 +63,23 @@
     <ClCompile Include="GameL\WinInputs.cpp">
       <Filter>リソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Noah.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
     </ClCompile>
-    <ClCompile Include="SceneMain.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="Noah.cpp">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
     </ClCompile>
     <ClCompile Include="ObjStage.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMain.cpp">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjGameTitle.cpp">
+      <Filter>ソース ファイル\ゲームタイトル画面</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameTitle.cpp">
+      <Filter>ソース ファイル\ゲームタイトル画面</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -107,14 +122,20 @@
     <ClInclude Include="GameL\WinInputs.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="SceneMain.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="Noah.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\ゲームメイン</Filter>
     </ClInclude>
     <ClInclude Include="ObjStage.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMain.h">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjGameTitle.h">
+      <Filter>ソース ファイル\ゲームタイトル画面</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameTitle.h">
+      <Filter>ソース ファイル\ゲームタイトル画面</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

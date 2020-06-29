@@ -31,7 +31,7 @@ void CSceneMain::InitScene()
 {
 	//外部グラフィックファイルの読み込み０番に登録(512×512ピクセル)
 	Draw::LoadImage(L"image.png", 1, TEX_SIZE_512);
-	Draw::LoadImage(L"海背景.jpg", 0, TEX_SIZE_1024);
+	Draw::LoadImage(L"海背景.png", 0, TEX_SIZE_1024);
 
 	//背景
 	CObjStage* objback = new CObjStage();	//作成

@@ -1,7 +1,7 @@
 #pragma once
 //ウィンドウサイズ
-#define WINDOW_SIZE_W	(800)
-#define WINDOW_SIZE_H	(600)
+#define WINDOW_SIZE_W	(1280)
+#define WINDOW_SIZE_H	(720)
 //解像度サイズ
 #define PIXEL_SIZE_W	(800)
 #define PIXEL_SIZE_H	(600)
